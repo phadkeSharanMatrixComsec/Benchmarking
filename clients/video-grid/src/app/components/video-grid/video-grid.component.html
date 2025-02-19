@@ -1,0 +1,24 @@
+<div class="controls">
+  <button (click)="changeGridSize(1)">1</button>
+  <button (click)="changeGridSize(2)">2x2</button>
+  <button (click)="changeGridSize(3)">3x3</button>
+  <button (click)="changeGridSize(4)">4x4</button>
+  <button (click)="changeGridSize(6)">6x6</button>
+  <button (click)="changeGridSize(7)">7x7</button>
+  <button (click)="changeGridSize(8)">8x8</button>
+</div>
+
+<div class="pagination-controls">
+  <button (click)="previousPage()" [disabled]="currentPage === 0">Prev</button>
+  <span>Page</span>
+  <span>of {{ currentPage }}</span>
+  <button (click)="nextPage()" >Next</button>
+</div>
+
+<div class="video-grid" [style.grid-template-columns]="'repeat(' + gridSize + ', 1fr)'">
+  <div class="video-container" *ngFor="let video of videos">
+    <video [id]="video.id" playsinline controls></video>
+    <!-- <div [id]="video.latencyId" class="latency-display">Latency: -- ms</div> -->
+    <div [id]="video.id" class="latency-display">Stream {{ video.id }}</div>
+  </div>
+</div>
