@@ -700,601 +700,601 @@ pathDefaults:
 paths:
   mystream0:
     source: rtsp://192.168.27.79:8554/mystream0
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream1:
     source: rtsp://192.168.27.79:8554/mystream1
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream10:
     source: rtsp://192.168.27.79:8554/mystream10
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream100:
     source: rtsp://192.168.27.79:8554/mystream100
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream101:
     source: rtsp://192.168.27.79:8554/mystream101
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream102:
     source: rtsp://192.168.27.79:8554/mystream102
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream103:
     source: rtsp://192.168.27.79:8554/mystream103
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream104:
     source: rtsp://192.168.27.79:8554/mystream104
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream105:
     source: rtsp://192.168.27.79:8554/mystream105
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream106:
     source: rtsp://192.168.27.79:8554/mystream106
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream107:
     source: rtsp://192.168.27.79:8554/mystream107
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream108:
     source: rtsp://192.168.27.79:8554/mystream108
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream109:
     source: rtsp://192.168.27.79:8554/mystream109
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream11:
     source: rtsp://192.168.27.79:8554/mystream11
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream110:
     source: rtsp://192.168.27.79:8554/mystream110
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream111:
     source: rtsp://192.168.27.79:8554/mystream111
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream112:
     source: rtsp://192.168.27.79:8554/mystream112
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream113:
     source: rtsp://192.168.27.79:8554/mystream113
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream114:
     source: rtsp://192.168.27.79:8554/mystream114
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream115:
     source: rtsp://192.168.27.79:8554/mystream115
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream116:
     source: rtsp://192.168.27.79:8554/mystream116
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream117:
     source: rtsp://192.168.27.79:8554/mystream117
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream118:
     source: rtsp://192.168.27.79:8554/mystream118
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream119:
     source: rtsp://192.168.27.79:8554/mystream119
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream12:
     source: rtsp://192.168.27.79:8554/mystream12
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream120:
     source: rtsp://192.168.27.79:8554/mystream120
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream121:
     source: rtsp://192.168.27.79:8554/mystream121
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream122:
     source: rtsp://192.168.27.79:8554/mystream122
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream123:
     source: rtsp://192.168.27.79:8554/mystream123
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream124:
     source: rtsp://192.168.27.79:8554/mystream124
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream125:
     source: rtsp://192.168.27.79:8554/mystream125
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream126:
     source: rtsp://192.168.27.79:8554/mystream126
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream127:
     source: rtsp://192.168.27.79:8554/mystream127
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream128:
     source: rtsp://192.168.27.79:8554/mystream128
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream129:
     source: rtsp://192.168.27.79:8554/mystream129
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream13:
     source: rtsp://192.168.27.79:8554/mystream13
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream130:
     source: rtsp://192.168.27.79:8554/mystream130
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream131:
     source: rtsp://192.168.27.79:8554/mystream131
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream132:
     source: rtsp://192.168.27.79:8554/mystream132
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream133:
     source: rtsp://192.168.27.79:8554/mystream133
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream134:
     source: rtsp://192.168.27.79:8554/mystream134
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream135:
     source: rtsp://192.168.27.79:8554/mystream135
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream136:
     source: rtsp://192.168.27.79:8554/mystream136
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream137:
     source: rtsp://192.168.27.79:8554/mystream137
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream138:
     source: rtsp://192.168.27.79:8554/mystream138
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream139:
     source: rtsp://192.168.27.79:8554/mystream139
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream14:
     source: rtsp://192.168.27.79:8554/mystream14
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream140:
     source: rtsp://192.168.27.79:8554/mystream140
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream141:
     source: rtsp://192.168.27.79:8554/mystream141
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream142:
     source: rtsp://192.168.27.79:8554/mystream142
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream143:
     source: rtsp://192.168.27.79:8554/mystream143
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream144:
     source: rtsp://192.168.27.79:8554/mystream144
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream145:
     source: rtsp://192.168.27.79:8554/mystream145
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream146:
     source: rtsp://192.168.27.79:8554/mystream146
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream147:
     source: rtsp://192.168.27.79:8554/mystream147
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream148:
     source: rtsp://192.168.27.79:8554/mystream148
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream149:
     source: rtsp://192.168.27.79:8554/mystream149
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream15:
     source: rtsp://192.168.27.79:8554/mystream15
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream150:
     source: rtsp://192.168.27.79:8554/mystream150
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream151:
     source: rtsp://192.168.27.79:8554/mystream151
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream152:
     source: rtsp://192.168.27.79:8554/mystream152
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream153:
     source: rtsp://192.168.27.79:8554/mystream153
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream154:
     source: rtsp://192.168.27.79:8554/mystream154
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream155:
     source: rtsp://192.168.27.79:8554/mystream155
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream156:
     source: rtsp://192.168.27.79:8554/mystream156
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream157:
     source: rtsp://192.168.27.79:8554/mystream157
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream158:
     source: rtsp://192.168.27.79:8554/mystream158
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream159:
     source: rtsp://192.168.27.79:8554/mystream159
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream16:
     source: rtsp://192.168.27.79:8554/mystream16
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream160:
     source: rtsp://192.168.27.79:8554/mystream160
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream161:
     source: rtsp://192.168.27.79:8554/mystream161
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream162:
     source: rtsp://192.168.27.79:8554/mystream162
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream163:
     source: rtsp://192.168.27.79:8554/mystream163
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream164:
     source: rtsp://192.168.27.79:8554/mystream164
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream165:
     source: rtsp://192.168.27.79:8554/mystream165
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream166:
     source: rtsp://192.168.27.79:8554/mystream166
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream167:
     source: rtsp://192.168.27.79:8554/mystream167
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream168:
     source: rtsp://192.168.27.79:8554/mystream168
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream169:
     source: rtsp://192.168.27.79:8554/mystream169
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream17:
     source: rtsp://192.168.27.79:8554/mystream17
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream170:
     source: rtsp://192.168.27.79:8554/mystream170
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream171:
     source: rtsp://192.168.27.79:8554/mystream171
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream172:
     source: rtsp://192.168.27.79:8554/mystream172
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream173:
     source: rtsp://192.168.27.79:8554/mystream173
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream174:
     source: rtsp://192.168.27.79:8554/mystream174
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream175:
     source: rtsp://192.168.27.79:8554/mystream175
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream176:
     source: rtsp://192.168.27.79:8554/mystream176
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream177:
     source: rtsp://192.168.27.79:8554/mystream177
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream178:
     source: rtsp://192.168.27.79:8554/mystream178
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream179:
     source: rtsp://192.168.27.79:8554/mystream179
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream18:
     source: rtsp://192.168.27.79:8554/mystream18
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream180:
     source: rtsp://192.168.27.79:8554/mystream180
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream181:
     source: rtsp://192.168.27.79:8554/mystream181
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream182:
     source: rtsp://192.168.27.79:8554/mystream182
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream183:
     source: rtsp://192.168.27.79:8554/mystream183
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream184:
     source: rtsp://192.168.27.79:8554/mystream184
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream185:
     source: rtsp://192.168.27.79:8554/mystream185
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream186:
     source: rtsp://192.168.27.79:8554/mystream186
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream187:
     source: rtsp://192.168.27.79:8554/mystream187
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream188:
     source: rtsp://192.168.27.79:8554/mystream188
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream189:
     source: rtsp://192.168.27.79:8554/mystream189
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream19:
     source: rtsp://192.168.27.79:8554/mystream19
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream190:
     source: rtsp://192.168.27.79:8554/mystream190
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream191:
     source: rtsp://192.168.27.79:8554/mystream191
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream192:
     source: rtsp://192.168.27.79:8554/mystream192
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream193:
     source: rtsp://192.168.27.79:8554/mystream193
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream194:
     source: rtsp://192.168.27.79:8554/mystream194
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream195:
     source: rtsp://192.168.27.79:8554/mystream195
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream196:
     source: rtsp://192.168.27.79:8554/mystream196
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream197:
     source: rtsp://192.168.27.79:8554/mystream197
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream198:
     source: rtsp://192.168.27.79:8554/mystream198
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream199:
     source: rtsp://192.168.27.79:8554/mystream199
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream2:
     source: rtsp://192.168.27.79:8554/mystream2
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream20:
     source: rtsp://192.168.27.79:8554/mystream20
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream21:
     source: rtsp://192.168.27.79:8554/mystream21
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream22:
     source: rtsp://192.168.27.79:8554/mystream22
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream23:
     source: rtsp://192.168.27.79:8554/mystream23
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream24:
     source: rtsp://192.168.27.79:8554/mystream24
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream25:
     source: rtsp://192.168.27.79:8554/mystream25
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream26:
     source: rtsp://192.168.27.79:8554/mystream26
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream27:
     source: rtsp://192.168.27.79:8554/mystream27
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream28:
     source: rtsp://192.168.27.79:8554/mystream28
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream29:
     source: rtsp://192.168.27.79:8554/mystream29
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream3:
     source: rtsp://192.168.27.79:8554/mystream3
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream30:
     source: rtsp://192.168.27.79:8554/mystream30
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream31:
     source: rtsp://192.168.27.79:8554/mystream31
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream32:
     source: rtsp://192.168.27.79:8554/mystream32
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream33:
     source: rtsp://192.168.27.79:8554/mystream33
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream34:
     source: rtsp://192.168.27.79:8554/mystream34
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream35:
     source: rtsp://192.168.27.79:8554/mystream35
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream36:
     source: rtsp://192.168.27.79:8554/mystream36
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream37:
     source: rtsp://192.168.27.79:8554/mystream37
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream38:
     source: rtsp://192.168.27.79:8554/mystream38
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream39:
     source: rtsp://192.168.27.79:8554/mystream39
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream4:
     source: rtsp://192.168.27.79:8554/mystream4
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream40:
     source: rtsp://192.168.27.79:8554/mystream40
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream41:
     source: rtsp://192.168.27.79:8554/mystream41
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream42:
     source: rtsp://192.168.27.79:8554/mystream42
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream43:
     source: rtsp://192.168.27.79:8554/mystream43
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream44:
     source: rtsp://192.168.27.79:8554/mystream44
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream45:
     source: rtsp://192.168.27.79:8554/mystream45
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream46:
     source: rtsp://192.168.27.79:8554/mystream46
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream47:
     source: rtsp://192.168.27.79:8554/mystream47
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream48:
     source: rtsp://192.168.27.79:8554/mystream48
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream49:
     source: rtsp://192.168.27.79:8554/mystream49
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream5:
     source: rtsp://192.168.27.79:8554/mystream5
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream50:
     source: rtsp://192.168.27.79:8554/mystream50
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream51:
     source: rtsp://192.168.27.79:8554/mystream51
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream52:
     source: rtsp://192.168.27.79:8554/mystream52
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream53:
     source: rtsp://192.168.27.79:8554/mystream53
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream54:
     source: rtsp://192.168.27.79:8554/mystream54
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream55:
     source: rtsp://192.168.27.79:8554/mystream55
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream56:
     source: rtsp://192.168.27.79:8554/mystream56
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream57:
     source: rtsp://192.168.27.79:8554/mystream57
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream58:
     source: rtsp://192.168.27.79:8554/mystream58
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream59:
     source: rtsp://192.168.27.79:8554/mystream59
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream6:
     source: rtsp://192.168.27.79:8554/mystream6
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream60:
     source: rtsp://192.168.27.79:8554/mystream60
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream61:
     source: rtsp://192.168.27.79:8554/mystream61
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream62:
     source: rtsp://192.168.27.79:8554/mystream62
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream63:
     source: rtsp://192.168.27.79:8554/mystream63
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream64:
     source: rtsp://192.168.27.79:8554/mystream64
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream65:
     source: rtsp://192.168.27.79:8554/mystream65
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream66:
     source: rtsp://192.168.27.79:8554/mystream66
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream67:
     source: rtsp://192.168.27.79:8554/mystream67
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream68:
     source: rtsp://192.168.27.79:8554/mystream68
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream69:
     source: rtsp://192.168.27.79:8554/mystream69
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream7:
     source: rtsp://192.168.27.79:8554/mystream7
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream70:
     source: rtsp://192.168.27.79:8554/mystream70
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream71:
     source: rtsp://192.168.27.79:8554/mystream71
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream72:
     source: rtsp://192.168.27.79:8554/mystream72
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream73:
     source: rtsp://192.168.27.79:8554/mystream73
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream74:
     source: rtsp://192.168.27.79:8554/mystream74
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream75:
     source: rtsp://192.168.27.79:8554/mystream75
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream76:
     source: rtsp://192.168.27.79:8554/mystream76
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream77:
     source: rtsp://192.168.27.79:8554/mystream77
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream78:
     source: rtsp://192.168.27.79:8554/mystream78
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream79:
     source: rtsp://192.168.27.79:8554/mystream79
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream8:
     source: rtsp://192.168.27.79:8554/mystream8
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream80:
     source: rtsp://192.168.27.79:8554/mystream80
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream81:
     source: rtsp://192.168.27.79:8554/mystream81
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream82:
     source: rtsp://192.168.27.79:8554/mystream82
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream83:
     source: rtsp://192.168.27.79:8554/mystream83
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream84:
     source: rtsp://192.168.27.79:8554/mystream84
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream85:
     source: rtsp://192.168.27.79:8554/mystream85
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream86:
     source: rtsp://192.168.27.79:8554/mystream86
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream87:
     source: rtsp://192.168.27.79:8554/mystream87
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream88:
     source: rtsp://192.168.27.79:8554/mystream88
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream89:
     source: rtsp://192.168.27.79:8554/mystream89
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream9:
     source: rtsp://192.168.27.79:8554/mystream9
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream90:
     source: rtsp://192.168.27.79:8554/mystream90
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream91:
     source: rtsp://192.168.27.79:8554/mystream91
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream92:
     source: rtsp://192.168.27.79:8554/mystream92
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream93:
     source: rtsp://192.168.27.79:8554/mystream93
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream94:
     source: rtsp://192.168.27.79:8554/mystream94
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream95:
     source: rtsp://192.168.27.79:8554/mystream95
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream96:
     source: rtsp://192.168.27.79:8554/mystream96
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream97:
     source: rtsp://192.168.27.79:8554/mystream97
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream98:
     source: rtsp://192.168.27.79:8554/mystream98
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
   mystream99:
     source: rtsp://192.168.27.79:8554/mystream99
-    sourceOnDemand: 'yes'
+    sourceOnDemand: true
