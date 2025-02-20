@@ -5,7 +5,7 @@ services:
     restart: unless-stopped
     environment:
       - MTX_RTSPTRANSPORTS=tcp
-    volume:
+    volumes:
       - ./mediamtx.yml:/mediamtx.yml
     ports:
       - "8554:8554"
