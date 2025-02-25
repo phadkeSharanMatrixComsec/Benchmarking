@@ -1,0 +1,25 @@
+CPU Usage:
+Linux 6.8.0-52-generic (450187-0) 	02/21/2025 	_x86_64_	(28 CPU)
+
+05:37:53 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+Average:        all      6.08      0.00      1.92      0.05      0.00     91.96
+=============================================================================================================================
+Memory Usage:
+Linux 6.8.0-52-generic (450187-0) 	02/21/2025 	_x86_64_	(28 CPU)
+
+05:37:53 PM kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+Average:       344882  10577492   4202944     26.10    386525  10324981  15561751     85.49   5946611   8053014    403873
+=============================================================================================================================
+PID Stats:
+Linux 6.8.0-52-generic (450187-0) 	02/21/2025 	_x86_64_	(28 CPU)
+Average:      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+Average:     1000      2691      0.03      0.00      0.00       0  systemd
+Average:     1000      2896      0.00      0.01      0.00       0  gnome-shell
+Average:     1000      9632      0.00      1.05      0.00       0  code
+Average:     1000      9686      0.00      0.01      0.00       0  code
+Average:     1000      9808      0.00      0.13      0.00       0  code
+Average:     1000      9863      0.25      0.01      0.00       0  code
+Average:     1000    320577      0.83      0.00      0.00       0  bash
+Average:     1000    391672      0.00  24117.68      0.00       0  mediamtx
+Average:     1000    397764      0.00      0.44      0.00       0  bash
+Average:     1000    397770      0.00      0.28      0.00       0  pidstat

@@ -9,8 +9,8 @@ Mediam Server Benchmarking for feasibility analysis
 
 ## Benchmarking Tool used
 
-1. SAR for Ubuntu
-
+1. SAR for Ubuntu CPU Memeory metrics
+2. iostat for Ubuntu Disk IO metrics
 
 ### Mediamtx Benchmark Live Stream
 

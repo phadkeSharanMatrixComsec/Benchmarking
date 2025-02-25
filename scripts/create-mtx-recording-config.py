@@ -1,60 +1,33 @@
 import yaml
 
-# Output YAML file
-OUTPUT_FILE = "mediamtx.yml"
-
-# Base RTSP URL
-RTSP_BASE = "rtsp://admin:admin@192.168.101.80"
-
-# Start and end ports
-START_PORT = 20001
-END_PORT = 20200
-
-# Recording paths and storage capacities (Modify accordingly)
-# STORAGE_PATHS = {
-#     "/media/matrix/mtx-1tb-1/recordings": 1000,  # Capacity in GB
-#     "/media/matrix/mtx-8tb-1/recordings": 8000,  # Capacity in GB
-# }
-
-STORAGE_PATHS = {
-    "/media/sharanphadke/c5c688cd-1fc3-4574-a97d-9d62dc366ae02/recordings": 1000,  # Capacity in GB
-}
-
-
-# Calculate total capacity
-total_capacity = sum(STORAGE_PATHS.values())
-
-# Calculate streams per storage location
-STREAM_DISTRIBUTION = {
-    path: (capacity * (END_PORT - START_PORT + 1)) // total_capacity
-    for path, capacity in STORAGE_PATHS.items()
-}
-
-# Construct MediaMTX configuration
-yaml_config = {"paths": {}}
-
-# Assign streams dynamically
-port = START_PORT
-for path, count in STREAM_DISTRIBUTION.items():
-    for _ in range(count):
-        if port > END_PORT:
-            break
-        
-        stream_name = f"stream_{port}"
-        rtsp_url = f"{RTSP_BASE}:{port}/video/h264/h264-704x576-30FPS-50GOP-512Kbps-aac-16Khz-32Kbps.mp4"
-        recording_path = f"{path}/{stream_name}/%Y-%m-%d_%H-%M-%S-%f"
-        
-        yaml_config["paths"][stream_name] = {
-            "source": rtsp_url,
-            "sourceOnDemand": False,
-            "record": True,
-            "recordPath": recording_path
+def generate_yml(n, base_url, base_recording_path):
+    # Create the structure of the YAML file
+    data = {'paths': {}}
+    # Iterate for n streams
+    for i in range(n):
+        stream_name = f'mystream{i}'
+        stream_data = {
+            'source': f'{base_url}{i}',  # Increment stream URL by appending the index
+            'sourceOnDemand': False,
+            'record': True,
+            'recordPath': f'{base_recording_path}/recordings/%path/%Y-%m-%d_%H-%M-%S-%f',  # Assign recording path dynamically
+            'recordPartDuration': '1s',
+            'recordSegmentDuration': '60s',
+            'recordDeleteAfter': '1000s'
         }
-        
-        port += 1
+        data['paths'][stream_name] = stream_data
+    
+    # Save the YAML content to a file
+    with open('streams.yml', 'w') as file:
+        yaml.dump(data, file, default_flow_style=False)
 
-# Write configuration to YAML file
-with open(OUTPUT_FILE, "w") as file:
-    yaml.dump(yaml_config, file, default_flow_style=False)
+if __name__ == "__main__":
+    # Configuration
+    n = 1000  # Number of iterations (streams)
+    base_url = "rtsp://192.168.27.79:8554/mystream"  # Base RTSP URL
+    # base_recording_path = "/media/matrixuser/64A034ECA034C5F8"  # Base directory for recordings
+    # base_recording_path = "/run/user/1000/gvfs/ftp:host=192.168.27.167" # FTP Path
+    base_recording_path = "/mnt/nas" # NAS Path
 
-print(f"MediaMTX configuration saved to {OUTPUT_FILE}")
+    generate_yml(n, base_url, base_recording_path)
+    print("YAML file 'streams.yml' has been generated.")
