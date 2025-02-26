@@ -1,0 +1,42 @@
+CPU Usage:
+Linux 6.8.0-52-generic (450187-0) 	02/26/2025 	_x86_64_	(28 CPU)
+
+01:39:44 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+Average:        all      7.53      0.00      6.00      0.11      0.00     86.35
+=============================================================================================================================
+Memory Usage:
+Linux 6.8.0-52-generic (450187-0) 	02/26/2025 	_x86_64_	(28 CPU)
+
+01:39:44 PM kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+Average:       391282   8462859   6348256     39.42    114228   7733222  19740970    108.45   5925338   7587315    475503
+=============================================================================================================================
+PID Stats:
+Linux 6.8.0-52-generic (450187-0) 	02/26/2025 	_x86_64_	(28 CPU)
+Average:      UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+Average:     1000      3519      0.03      0.00      0.00       0  systemd
+Average:     1000      3528      0.01      0.03      0.00       0  pulseaudio
+Average:     1000      3701      0.34      0.01      0.00       0  gnome-shell
+Average:     1000      3914      0.01      0.00      0.00       0  gsd-power
+Average:     1000      3930      0.02      0.00      0.00       0  gsd-wacom
+Average:     1000      4288      0.01      0.00      0.00       0  gnome-calendar
+Average:     1000      4364      0.51      0.35      0.00       0  code
+Average:     1000      4389      0.11      0.00      0.00       0  chrome_crashpad
+Average:     1000      4442      0.06      0.00      0.00       0  gsd-xsettings
+Average:     1000      4491      0.04      0.00      0.00       0  ibus-x11
+Average:     1000      4507      5.18      0.10      0.00       0  code
+Average:     1000      4512      0.00      0.01      0.00       0  code
+Average:     1000    107651      0.03      0.00      0.00       0  WebKitNetworkPr
+Average:     1000    107726      0.01      0.00      0.00       0  WebKitWebProces
+Average:     1000    123577      0.59      0.00      0.00       0  esbuild
+Average:     1000    142979      0.00      0.15      0.07       0  nautilus
+Average:     1000    144041      0.76      0.00      0.00       0  code
+Average:     1000    144071      0.01      0.35      0.00       0  code
+Average:     1000    146172      0.99  60566.55      0.00       0  mediamtx
+Average:     1000    148443      0.02      0.95      0.00       0  bash
+Average:     1000    148449      0.00      0.55      0.00       0  pidstat
+
+=============================================================================================================================
+Observation 
+
+- Smooth Recordings
+- Smooth Continuous live stream from server side
