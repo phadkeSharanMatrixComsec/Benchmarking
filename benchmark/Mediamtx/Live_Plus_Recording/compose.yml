@@ -1,0 +1,19 @@
+services:
+  mediamtx:
+    image: bluenviron/mediamtx:1.11.3
+    container_name: mediamtx
+    restart: unless-stopped
+    environment:
+      - MTX_RTSPTRANSPORTS=tcp
+    volumes:
+      - ./mediamtx_1000.yml:/mediamtx.yml
+      - /media/matrixuser/64A034ECA034C5F8/:/media/matrixuser/64A034ECA034C5F8/
+    ports:
+      - "8554:8554"
+      - "1935:1935"
+      - "8888:8888"
+      - "8889:8889"
+      - "8890:8890/udp"
+      - "8189:8189/udp"
+    stdin_open: true
+    tty: true

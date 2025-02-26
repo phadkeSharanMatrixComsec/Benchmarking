@@ -9,16 +9,22 @@
 </div>
 
 <div class="pagination-controls">
-  <button (click)="previousPage()" [disabled]="currentPage === 0">Prev</button>
+  <button (click)="previousPage()" [disabled]="currentPage === 1">Prev</button>
   <span>Page</span>
-  <span>of {{ currentPage }}</span>
-  <button (click)="nextPage()" >Next</button>
+  <input 
+    type="number" 
+    [(ngModel)]="currentPage" 
+    (change)="gotoPage()" 
+    min="1" 
+    [max]="totalPages"
+  />
+  <span>of {{ totalPages }}</span>
+  <button (click)="nextPage()" [disabled]="currentPage >= totalPages">Next</button>
 </div>
 
 <div class="video-grid" [style.grid-template-columns]="'repeat(' + gridSize + ', 1fr)'">
   <div class="video-container" *ngFor="let video of videos">
     <video [id]="video.id" playsinline controls></video>
-    <!-- <div [id]="video.latencyId" class="latency-display">Latency: -- ms</div> -->
     <div [id]="video.id" class="latency-display">Stream {{ video.id }}</div>
   </div>
 </div>

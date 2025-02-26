@@ -1,18 +1,20 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit, OnDestroy, ElementRef } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import Hls from 'hls.js';
 
 @Component({
   selector: 'app-video-grid',
   templateUrl: './video-grid.component.html',
   styleUrls: ['./video-grid.component.scss'],
-  imports: [CommonModule],
+  imports: [CommonModule, FormsModule],
   standalone: true,
 })
 export class VideoGridComponent implements OnInit, OnDestroy {
-  gridSize: number = 5;
+  gridSize: number = 6;
   currentPage: number = 0;
-  viewsPerPage: number = 25;
+  viewsPerPage: number = this.gridSize * this.gridSize;
+  totalPages: number = 40;
   videos: any[] = [];
   players: Hls[] = [];
 
@@ -142,6 +144,10 @@ export class VideoGridComponent implements OnInit, OnDestroy {
 
   previousPage() {
     this.currentPage = this.currentPage - 1;
+    this.initializeGrid();
+  }
+
+  gotoPage() {
     this.initializeGrid();
   }
 

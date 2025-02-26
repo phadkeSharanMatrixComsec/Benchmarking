@@ -25,9 +25,9 @@ if __name__ == "__main__":
     # Configuration
     n = 1000  # Number of iterations (streams)
     base_url = "rtsp://192.168.27.79:8554/mystream"  # Base RTSP URL
-    # base_recording_path = "/media/matrixuser/64A034ECA034C5F8"  # Base directory for recordings
+    base_recording_path = "/media/matrixuser/64A034ECA034C5F8"  # Base directory for recordings
     # base_recording_path = "/run/user/1000/gvfs/ftp:host=192.168.27.167" # FTP Path
-    base_recording_path = "/mnt/nas" # NAS Path
+    # base_recording_path = "/mnt/nas" # NAS Path
 
     generate_yml(n, base_url, base_recording_path)
     print("YAML file 'streams.yml' has been generated.")
